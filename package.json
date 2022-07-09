@@ -1,0 +1,19 @@
+{
+  "name": "webstd-io-fetch-esm-issue",
+  "version": "0.0.0",
+  "description": "Quick repo to help reproduce error",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "author": "George Rodier",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@remix-run/web-fetch": "^4.1.3",
+    "@web-std/fetch": "4.1.0"
+  }
+}
